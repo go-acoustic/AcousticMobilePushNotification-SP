@@ -2,7 +2,7 @@
 // swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 //
-// Copyright (C) 2023 Acoustic, L.P. All rights reserved.
+// Copyright (C) 2024 Acoustic, L.P. All rights reserved.
 //
 // NOTICE: This file contains material that is confidential and proprietary to
 // Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -12,7 +12,7 @@
 
 import PackageDescription
 
-print("Using AcousticMobilePushNotification release version, if you need debug version use https://github.com/Acoustic-Mobile-Push/AcousticMobilePushNotificationDebug-SP")
+print("Using AcousticMobilePushNotification release version, if you need debug version use https://github.com/go-acoustic/AcousticMobilePushNotificationDebug-SP")
 let package = Package(
     name: "AcousticMobilePushNotification",
     platforms: [
@@ -22,7 +22,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "AcousticMobilePushNotification",
-            targets: ["AcousticMobilePushNotification"),
+            targets: ["AcousticMobilePushNotification"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -34,7 +34,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "AcousticMobilePushNotification",
-            url: "https://github.com/Acoustic-Mobile-Push/iOS/releases/download/3.8.15/AcousticMobilePushNotification_XCFramework_Release.zip",
-            checksum: "62c36253943e7c8e2590b23d4343a35181fb9f15390cda18d21f0feb2a42f04d"),
+            url: "https://github.com/go-acoustic/Acoustic-Mobile-Push-iOS/releases/download/3.9.19/AcousticMobilePushNotification_XCFramework_Release.zip",
+            checksum: "56fed3e2431eba9478efc905b6b5124d3b56c2387aea2b8d37de1bab0d5e851a"),
     ]
 )
